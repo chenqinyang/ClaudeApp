@@ -13,3 +13,7 @@ struct ContentView: View {
         DeviceListView()
     }
 }
+
+#Preview {
+    ContentView()
+}

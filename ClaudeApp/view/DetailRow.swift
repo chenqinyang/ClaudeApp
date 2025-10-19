@@ -25,3 +25,7 @@ struct DetailRow: View {
         .padding(.vertical, 8)
     }
 }
+
+#Preview {
+    DetailRow(title: "iPhone 14 Pro", value: "ho", systemImage: "star")
+}
